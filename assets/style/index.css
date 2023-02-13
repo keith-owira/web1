@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+img{
+    width:20%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color: rgb(73, 73, 73) !important;
+    background-image: url("../images/michael-lee-6J7eIvNwttQ-unsplash.jpg") !important; 
+    background-size: cover !important;
+    background-blend-mode: multiply;
+    background-position:bottom !important;
+}
+.teamsImag{
+    display: inline;
+    padding: 5%;
+}
+.teams{
+    width: 10%;
+    padding:25px ;
+
+}
+body,li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none !important;
+}
+.text{
+    padding :30px 10%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding :30px 10%;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a:hover{
+    color:aqua;
+}
+button{
+    padding :9px 25px;
+    background-color: rgb(6, 175, 119);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0S;
+}
+button:hover{
+    background-color: rgb(9, 65, 46);
+}
